@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ironblade Productions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="intro-layer">
+        <canvas id="introCanvas"></canvas>
+        
+        <div class="text-wrapper" id="textWrapper">
+            <h1 class="iron-text">Ironblade-Productions</h1>
+            <h2 class="presents-text">Presents</h2>
+            <h1 class="iron-text">The-IronBlade.com</h1>
+        </div>
+
+        <div class="credits">Created by BraytheproStudiosDev</div>
+    </div>
+
+    <div id="app-root" class="hidden"></div>
+
+    <div id="password-modal" class="modal-hidden">
+        <div class="modal-content">
+            <h3>ENTER AUTHORIZATION PASSCODE</h3>
+            <input type="password" id="pass-input" placeholder="••••••••" maxlength="20">
+            
+            <div id="modal-btns">
+                <button id="submit-pass">ACCESS</button>
+                <button id="cancel-pass">CANCEL</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="intro.js"></script>
+    <script src="Pages.js"></script>
+
+</body>
+</html>
